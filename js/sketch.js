@@ -22,7 +22,6 @@ function setup() {
               exact : 'environment'
           }
         },
-        audio: true
       };
     video = createCapture(constraints);
     // Append it to the videoContainer DOM element
