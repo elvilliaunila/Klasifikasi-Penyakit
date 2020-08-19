@@ -1,0 +1,100 @@
+h3{
+    font-size: 1px;
+    color: green;
+    text-align: center;
+}
+h2{
+    color: green;
+}
+img {
+    width: 45vw;
+    height: auto;
+}
+.logo{
+    height: 80px;
+    width: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+video {
+    width: 40vw;
+    height: auto;
+}
+
+image{
+    width: 10px;
+}
+
+.container{
+    padding-top: 80px;
+    display: block;
+}
+
+header{
+    background: #4CAF50;;
+    color: #fff;
+    padding: 15px 20px;
+    font-size: 20px;
+}
+
+.menu{
+    padding: 0;
+}
+
+.menu li{
+    border-bottom: 1px dotted #444;
+}
+
+.menu a{
+    display: block;
+    padding: 10px 10px;
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Button style */
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 100px; /* Should be removed. Only for demonstration */
+}
+
+.table {
+    border-radius: 5px;
+    width: 50%;
+    margin: 0px auto;
+    float: none;
+}
+
+.centertext{
+    text-align:center;
+}
+
+@media screen and (max-width: 800px) {
+    img,
+    video {
+        width: 100%;
+        /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}
+
+@media (max-width: 700px){
+    .container{
+        flex-direction: column;
+    }
+}
